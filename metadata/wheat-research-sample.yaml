@@ -1,0 +1,21 @@
+dataset:
+  id: wheat-research-sample
+  title: Wheat Growth Sample Dataset
+  description: Small sample dataset for learning research data management workflows.
+  project: wheat-growth-2026
+  owner: research-data-team
+  created_at: 2026-07-08
+  license: CC-BY-4.0
+
+files:
+  - path: datasets/wheat-research-sample/measurements.csv
+    type: tabular
+    format: csv
+    description: Wheat plant measurement data.
+
+metadata:
+  discipline: agriculture
+  organism: wheat
+  data_type: plant_measurement
+  location: greenhouse
+  retention: training

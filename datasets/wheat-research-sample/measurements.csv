@@ -1,0 +1,5 @@
+sample_id,date,plant_height_cm,leaf_count,condition
+WHT-001,2026-07-01,12.4,5,normal
+WHT-002,2026-07-01,11.8,4,normal
+WHT-003,2026-07-01,9.7,3,dry
+WHT-004,2026-07-01,13.1,6,normal
