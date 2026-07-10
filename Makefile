@@ -1,4 +1,4 @@
-.PHONY: validate manifest check healthcheck collection ingest
+.PHONY: validate manifest check healthcheck collection ingest metadata
 
 validate:
 	python python/validate_metadata.py
@@ -17,3 +17,6 @@ collection:
 
 ingest: manifest
 	./scripts/ingest_dataset.sh
+
+metadata:
+	./scripts/attach_metadata.sh
