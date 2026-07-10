@@ -1,5 +1,7 @@
 # iRODS Research Data Platform Lab
 
+![CI](https://github.com/omkz/irods-research-data-platform-lab/actions/workflows/ci.yml/badge.svg)
+
 A small learning project to explore research data management workflows using iRODS, Python, Bash, and metadata.
 
 ## Goal
