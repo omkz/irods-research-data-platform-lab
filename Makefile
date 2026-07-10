@@ -31,7 +31,4 @@ metrics:
 	python python/metrics_exporter.py
 
 prometheus:
-	docker run --rm \
-		--network=host \
-		-v "$$(pwd)/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml" \
-		prom/prometheus
+	docker compose up prometheus
