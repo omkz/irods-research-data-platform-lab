@@ -1,4 +1,4 @@
-.PHONY: validate manifest check healthcheck
+.PHONY: validate manifest check healthcheck collection
 
 validate:
 	python python/validate_metadata.py
@@ -11,3 +11,6 @@ check:
 
 healthcheck:
 	./scripts/healthcheck.sh
+
+collection:
+	./scripts/create_collection.sh
