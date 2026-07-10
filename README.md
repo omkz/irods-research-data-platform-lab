@@ -48,6 +48,7 @@ Work in progress.
 - [Troubleshooting](docs/troubleshooting.md)
 - [Monitoring](monitoring/README.md)
 - [Ansible](ansible/README.md)
+- [Demo Guide](docs/demo.md)
 
 ## Quick Start
 
