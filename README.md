@@ -46,6 +46,7 @@ Work in progress.
 - [Operator Guide](docs/operator-guide.md)
 - [Researcher User Guide](docs/researcher-user-guide.md)
 - [Troubleshooting](docs/troubleshooting.md)
+- [Monitoring](monitoring/README.md)
 
 ## Quick Start
 
