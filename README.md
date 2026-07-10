@@ -39,3 +39,10 @@ Metadata-based search
 ## Status
 
 Work in progress.
+
+## Documentation
+
+- [Architecture](docs/architecture.md)
+- [Operator Guide](docs/operator-guide.md)
+- [Researcher User Guide](docs/researcher-user-guide.md)
+- [Troubleshooting](docs/troubleshooting.md)
