@@ -148,3 +148,27 @@ The script removes the same AVU before adding it again, so re-running should be 
 If needed, inspect metadata manually:
 
     imeta ls -C /tempZone/home/rods/research-lab/wheat-research-sample
+
+## ansible-playbook command not found
+
+Error example:
+
+    zsh: command not found: ansible-playbook
+
+Cause:
+
+Ansible is not installed locally.
+
+Fix on Ubuntu/Linux Mint:
+
+    sudo apt update
+    sudo apt install ansible -y
+
+Check:
+
+    ansible --version
+    ansible-playbook --version
+
+Then run:
+
+    ansible-playbook ansible/local-dev-setup.yml --ask-become-pass

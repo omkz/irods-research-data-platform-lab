@@ -47,6 +47,7 @@ Work in progress.
 - [Researcher User Guide](docs/researcher-user-guide.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Monitoring](monitoring/README.md)
+- [Ansible](ansible/README.md)
 
 ## Quick Start
 

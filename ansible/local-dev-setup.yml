@@ -1,0 +1,36 @@
+---
+- name: Local development setup for research data platform lab
+  hosts: localhost
+  connection: local
+  become: true
+
+  tasks:
+    - name: Install required system packages
+      ansible.builtin.apt:
+        name:
+          - python3
+          - python3-venv
+          - python3-pip
+          - make
+          - curl
+          - git
+        state: present
+        update_cache: false
+
+    - name: Check Python version
+      ansible.builtin.command: python3 --version
+      register: python_version
+      changed_when: false
+
+    - name: Show Python version
+      ansible.builtin.debug:
+        msg: "{{ python_version.stdout }}"
+
+    - name: Check Git version
+      ansible.builtin.command: git --version
+      register: git_version
+      changed_when: false
+
+    - name: Show Git version
+      ansible.builtin.debug:
+        msg: "{{ git_version.stdout }}"
