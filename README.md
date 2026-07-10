@@ -46,3 +46,25 @@ Work in progress.
 - [Operator Guide](docs/operator-guide.md)
 - [Researcher User Guide](docs/researcher-user-guide.md)
 - [Troubleshooting](docs/troubleshooting.md)
+
+## Quick Start
+
+Create a virtual environment:
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+
+Run local validation:
+
+    make validate
+    make manifest
+    make test
+
+Run iRODS workflow:
+
+    make check
+    make healthcheck
+    make ingest
+    make metadata
+    make query
