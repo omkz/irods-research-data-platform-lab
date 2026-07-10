@@ -1,4 +1,4 @@
-.PHONY: validate manifest check healthcheck collection ingest metadata
+.PHONY: validate manifest check healthcheck collection ingest metadata query test
 
 validate:
 	python python/validate_metadata.py
@@ -20,3 +20,9 @@ ingest: manifest
 
 metadata:
 	./scripts/attach_metadata.sh
+
+query:
+	./scripts/query_metadata.sh
+
+test:
+	python -m pytest
