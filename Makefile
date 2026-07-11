@@ -33,6 +33,8 @@ metrics:
 prometheus:
 	docker compose up prometheus
 
+gui:
+	streamlit run app/main.py
 
 local:
 	$(MAKE) validate
